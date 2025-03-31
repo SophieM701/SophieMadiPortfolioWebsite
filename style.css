@@ -1,5 +1,20 @@
+/* Variables */
+:root{
+    --black: #090a10;
+    --green: #a8cea6;
+    --blue: #c9e3fb;
+    --pink: #f5c2b7;
+    --white: #fffffe;
+}
+
+
 * {
     font-family: "Montserrat", sans-serif;
+    color: var(--black);
+}
+
+body {
+    background-color: var(--white);
 }
 
 h1, h2, h3 {
@@ -11,5 +26,17 @@ h1 {
 }
 
 .Highlighted {
-    color: green;
+    color: var(--green);
+}
+
+.NavBar{
+
+}
+
+.NavText{
+
+}
+
+a {
+    color: var(--blue);
 }
