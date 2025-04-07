@@ -25,18 +25,7 @@ h1 {
     font-weight: 600;
 }
 
-.Highlighted {
-    color: var(--green);
-}
-
-.NavBar{
-
-}
-
-.NavText{
-
-}
-
-a {
-    color: var(--blue);
+.mainDiv {
+    max-width: 1200px;
+    margin: auto;
 }
