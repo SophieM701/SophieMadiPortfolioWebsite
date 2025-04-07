@@ -28,8 +28,10 @@ h1 {
 .mainDiv {
     max-width: 1200px;
     margin: auto;
+    padding: 15px;
 }
 
 .nav-item{
     margin: 10px;
 }
+
