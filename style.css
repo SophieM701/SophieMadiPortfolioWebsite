@@ -14,7 +14,7 @@
 }
 
 body {
-    background-color: var(--white);
+    background-color: white !important;
 }
 
 h1, h2, h3 {
@@ -26,12 +26,13 @@ h1 {
 }
 
 .mainDiv {
-    max-width: 1200px;
+    max-width: 1100px;
     margin: auto;
     padding: 15px;
+    background-color: white;
 }
 
 .nav-item{
-    margin: 10px;
+    margin: 0px 10px;
 }
 
