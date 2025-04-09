@@ -9,29 +9,36 @@
 
 
 * {
-    font-family: serif;
+    font-family: "Outfit", sans-serif;
     color: var(--black);
 }
 
 body {
-    background-color: white !important;
-}
-
-h1, h2, h3 {
-    font-weight: 500;
-}
-
-h1 {
-    font-weight: 600;
+    background-color: #eeeeee !important;
 }
 
 .mainDiv {
-    max-width: 1100px;
+    max-width: 1200px;
     margin: auto;
     background-color: white;
+    padding: 0px 25px;
 }
 
-.nav-item{
+
+.brand {
+    font-size: 32pt !important;
+}
+
+.nav-item {
     margin: 0px 10px;
+}
+
+h3 {
+    font-size: 24pt !important;
+}
+
+h4 {
+    font-size: 16pt !important;
+    color: lightslategrey !important;
 }
 
