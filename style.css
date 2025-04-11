@@ -40,6 +40,11 @@ body {
     margin: 0px 10px;
 }
 
+.ext-link {
+    margin: 0px 0px 0px 10px;
+    float: right;
+}
+
 .align-right{
     justify-content: right;
 }
