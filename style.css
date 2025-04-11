@@ -40,13 +40,22 @@ body {
     margin: 0px 10px;
 }
 
+.align-right{
+    justify-content: right;
+}
+
 .nav-link:hover{
     color: black;
 }
 
 .brand-supercontainer {
     text-align: center;
-    padding: 100px 0px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.my-work-container {
+    padding-top: 100px;
 }
 
 .highlight {
@@ -62,7 +71,6 @@ h2 {
 h3 {
     font-size: 16pt !important;
     font-weight: normal !important;
-    color: var(--delft-blue) !important;
 }
 
 h4 {
