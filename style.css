@@ -27,7 +27,7 @@ body {
 .navDiv {
     max-width: 1100px;
     margin: auto;
-    background-color: white;
+    background-color: rgba(255,255,255,1);
     padding: 0px 25px;
 }
 
@@ -49,14 +49,34 @@ body {
     justify-content: right;
 }
 
+.nav-link{
+    color: var(--delft-blue) !important;
+}
+
 .nav-link:hover{
-    color: black;
+    color: var(--steel-pink) !important;
+}
+
+.fixedDiv {
+    position: fixed;
+    width: 100%;
 }
 
 .brand-supercontainer {
+
+    position: fixed;
+    
+    width: 100%;
+    background-color: white;
+    z-index: -1;
+
     text-align: center;
-    padding-top: 100px;
-    padding-bottom: 50px;
+    padding-top: 25vh;
+    padding-bottom: 15vh;
+}
+
+.wrapDiv {
+    padding-top: 70vh;
 }
 
 .my-work-container {
