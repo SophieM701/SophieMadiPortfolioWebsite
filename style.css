@@ -103,3 +103,6 @@ h4 {
     color: lightslategrey !important;
 }
 
+img {
+    border-radius: 10px;
+}
