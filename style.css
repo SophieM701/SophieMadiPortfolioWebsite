@@ -28,7 +28,7 @@
 }
 
 body {
-    background-color: white !important;
+    background-color: #eeeeee !important;
 }
 
 .mainDiv {
@@ -36,6 +36,7 @@ body {
     margin: auto;
     background-color: white;
     padding: 0px 25px;
+    border-radius: 10px;
 }
 
 .navDiv {
@@ -43,6 +44,7 @@ body {
     margin: auto;
     background-color: rgba(255,255,255,1);
     padding: 0px 25px;
+    border-radius: 0px 0px 10px 10px;
 
 }
 
@@ -82,7 +84,7 @@ body {
     position: fixed;
     
     width: 100%;
-    background-color: white;
+    /*background-color: white;*/
     z-index: -1;
 
     text-align: center;
