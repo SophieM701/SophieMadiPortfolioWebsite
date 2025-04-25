@@ -89,7 +89,7 @@
     z-index: auto;
 }
 .fadeInUpInit.visible {
-    animation: 1s fadeInUp;
+    animation: 0.8s fadeInUp;
     opacity: 100;
     transform: translateY(0%);
     z-index: auto;
