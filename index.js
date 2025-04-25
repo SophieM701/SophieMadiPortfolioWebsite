@@ -1,14 +1,17 @@
 // Scripts for the main page!
-console.log("TEST");
+
+// Latch for initial animations
+// Delay bounceIn
+const bounceInEl = document.querySelectorAll('.bounceIn');
+bounceInEl.forEach((el,i) => {
+    setTimeout(() =>{
+        el.classList.add('visible');
+    }, 2000);
+});
+
 
 // Fade In and Up when elements appear on screen
 const images = document.querySelectorAll('.fadeInUp');
-
-/*
-images.forEach(image => {
-    image.classList.add('TEST');
-});
-*/
 
 const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
