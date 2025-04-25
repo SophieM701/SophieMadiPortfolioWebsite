@@ -9,11 +9,20 @@ bounceInEl.forEach((el,i) => {
     }, 1000);
 });
 
+// Delay main content fade in
 const fadeInEl = document.querySelectorAll('.fadeInUpInit');
 fadeInEl.forEach((el,i) => {
     setTimeout(() =>{
         el.classList.add('visible');
     }, 600);
+});
+
+// Cascade fade in
+const fadeInCascade = document.querySelectorAll('.fadeInUpCascade');
+fadeInCascade.forEach((el,i) => {
+    setTimeout(() =>{
+        el.classList.add('visible');
+    }, i*150);
 });
 
 
