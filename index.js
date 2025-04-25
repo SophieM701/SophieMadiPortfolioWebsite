@@ -6,7 +6,14 @@ const bounceInEl = document.querySelectorAll('.bounceIn');
 bounceInEl.forEach((el,i) => {
     setTimeout(() =>{
         el.classList.add('visible');
-    }, 2000);
+    }, 1000);
+});
+
+const fadeInEl = document.querySelectorAll('.fadeInUpInit');
+fadeInEl.forEach((el,i) => {
+    setTimeout(() =>{
+        el.classList.add('visible');
+    }, 600);
 });
 
 
