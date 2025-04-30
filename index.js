@@ -1,6 +1,8 @@
 // Scripts for the main page!
 
 // Latch for initial animations
+
+/*
 // Delay bounceIn
 const bounceInEl = document.querySelectorAll('.bounceIn');
 bounceInEl.forEach((el,i) => {
@@ -41,3 +43,4 @@ const observer = new IntersectionObserver((entries) => {
 images.forEach(image => {
     observer.observe(image);
 });
+*/

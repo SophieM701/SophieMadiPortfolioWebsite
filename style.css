@@ -59,6 +59,7 @@
 }
 
 /* Animation Positions */
+/*
 .fadeInUp {
     opacity: 0;
     transform: translateY(10%);
@@ -104,6 +105,7 @@
     transform: translateY(0%);
     z-index: auto;
 }
+    */
 
 /* Element Styling */
 html{
@@ -120,10 +122,10 @@ body {
 }
 
 .mainDiv {
-    max-width: 1200px;
+    /*max-width: 1200px;*/
     margin: auto;
     background-color: white;
-    padding: 0px 25px;
+    /*padding: 0px 25px;*/
     border-radius: 10px;
 }
 
@@ -138,7 +140,7 @@ body {
     margin: auto;
     background-color: rgba(255,255,255,1);
     padding: 0px 25px;
-    border-radius: 0px 0px 10px 10px;
+    /*border-radius: 0px 0px 10px 10px;*/
 
 }
 
@@ -222,6 +224,17 @@ h4 {
     color: lightslategrey !important;
 }
 
-img {
-    /*border-radius: 10px;*/
+.lead-image{
+    object-fit: cover;
+    width: 60%;
+    height: 100vh;
+
+    display: block;
+    margin: auto;
+}
+
+.port-container{
+    max-width: 1200px;
+    margin: auto;
+    padding: 50px;
 }
